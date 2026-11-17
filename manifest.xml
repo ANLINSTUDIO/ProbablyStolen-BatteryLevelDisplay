@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod>
+  <ID>battery_level_display</ID>
+  <Name>电池电量显示 Battery Level Display</Name>
+  <Author>遇欲</Author>
+  <ModVersion>1.0.0</ModVersion>
+  <Description>在拖动电池的状态下，所有机器的上直接显示机内电池电量状态，还可以快速与机内电池交换；机器电池电量告急时，会持续显示电量以提醒。</Description>
+  <GameVersions>
+    <Version>0.46D</Version>
+  </GameVersions>
+  <Prerequisites />
+  <Assemblies>
+    <Assembly>BatteryLevelDisplay.dll</Assembly>
+  </Assemblies>
+  <Capabilities>
+    <Capability>reflection-external</Capability>
+  </Capabilities>
+</Mod>
